@@ -13,7 +13,7 @@ limitations under the License.*/
 //"use strict";
 
 // Optional. You will see this name in eg. 'ps' or 'top' command
-process.title = process.env.PROC_NAME || 'HyperlegerExplorer';
+process.title = process.env.PROC_NAME || '区块链';
 
 // Port where we'll run the websocket server
 var webSocketsServerPort = process.env.HTTP_PORT || 9090;
